@@ -23,28 +23,35 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="A" />
+                android:text="A"
+                android:onClick="displayA"/>
 
             <Button
                 android:id="@+id/button32"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="B" />
+                android:text="B"
+                android:onClick="displayB"/>
+            />
 
             <Button
                 android:id="@+id/button30"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="C" />
+                android:text="C"
+                android:onClick="displayC"/>
+            />
 
             <Button
                 android:id="@+id/button31"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="D" />
+                android:text="D"
+                android:onClick="displayD"/>
+            />
         </TableRow>
 
         <TableRow
@@ -56,28 +63,36 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="E" />
+                android:text="E"
+                android:onClick="displayE"/>
+            />
 
             <Button
                 android:id="@+id/button36"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="F" />
+                android:text="F"
+                android:onClick="displayF"/>
+            />
 
             <Button
                 android:id="@+id/button35"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="G" />
+                android:text="G"
+                android:onClick="displayG"/>
+            />
 
             <Button
                 android:id="@+id/button34"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="H" />
+                android:text="H"
+                android:onClick="displayH"/>
+            />
         </TableRow>
 
         <TableRow
@@ -89,28 +104,36 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="I" />
+                android:text="I"
+                android:onClick="displayI"/>
+            />
 
             <Button
                 android:id="@+id/button40"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="J" />
+                android:text="J"
+                android:onClick="displayJ"/>
+            />
 
             <Button
                 android:id="@+id/button39"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="K" />
+                android:text="K"
+                android:onClick="displayK"/>
+            />
 
             <Button
                 android:id="@+id/button38"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="L" />
+                android:text="L"
+                android:onClick="displayL"/>
+            />
         </TableRow>
 
         <TableRow
@@ -122,28 +145,36 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="M" />
+                android:text="M"
+                android:onClick="displayM"/>
+            />
 
             <Button
                 android:id="@+id/button45"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="N" />
+                android:text="N"
+                android:onClick="displayN"/>
+            />
 
             <Button
                 android:id="@+id/button44"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="O" />
+                android:text="O"
+                android:onClick="displayO"/>
+            />
 
             <Button
                 android:id="@+id/button43"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="P" />
+                android:text="P"
+                android:onClick="displayP"/>
+            />
         </TableRow>
 
         <TableRow
@@ -155,28 +186,36 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Q" />
+                android:text="Q"
+                android:onClick="displayQ"/>
+            />
 
             <Button
                 android:id="@+id/button49"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="R" />
+                android:text="R"
+                android:onClick="displayR"/>
+            />
 
             <Button
                 android:id="@+id/button50"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="S" />
+                android:text="S"
+                android:onClick="displayS"/>
+            />
 
             <Button
                 android:id="@+id/button48"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="T" />
+                android:text="T"
+                android:onClick="displayT"/>
+            />
         </TableRow>
 
         <TableRow
@@ -188,28 +227,36 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="U" />
+                android:text="U"
+                android:onClick="displayU"/>
+            />
 
             <Button
                 android:id="@+id/button54"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="V" />
+                android:text="V"
+                android:onClick="displayV"/>
+            />
 
             <Button
                 android:id="@+id/button53"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="W" />
+                android:text="W"
+                android:onClick="displayW"/>
+            />
 
             <Button
                 android:id="@+id/button52"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="X" />
+                android:text="X"
+                android:onClick="displayX"/>
+            />
         </TableRow>
 
         <TableRow
@@ -221,14 +268,30 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Y" />
+                android:text="Y"
+                android:onClick="displayY"/>
+            />
 
             <Button
                 android:id="@+id/button56"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Z" />
+                android:text="Z"
+                android:onClick="displayZ"/>
+            />
         </TableRow>
     </TableLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Select any Alphabet"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122"
+        tools:layout_editor_absoluteX="81dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
