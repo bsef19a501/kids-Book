@@ -3,6 +3,7 @@ package com.example.kidsbook;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -11,23 +12,23 @@ import android.widget.TextView;
 
 public class Quiz extends AppCompatActivity implements View.OnClickListener{
     public static String question[]={
-            "Name this animal?",
-            "what is this?",
-            "Correct spelling?"
+            "A cat has how many legs?",
+            "Can an elephant fly?",
+            "A dog has how many horns?"
 
 
     };
 
     public static String choices[][]={
-            {"cat","dog","elephant",
-                    "zebra"},
-            {"lion","dog","tiger","zebra"},
-            {"cat","dog","hen","rabbit"}
+            {"one","two","three",
+                    "four"},
+            {"yes","no","maybe","I don't know"},
+            {"1","2","0","3"}
 
     };
 
     public static String correctAns[]={
-            "cat","zebra","dog"
+            "four","no","0"
     };
 
     TextView totalquestionstextView;
@@ -117,5 +118,10 @@ public class Quiz extends AppCompatActivity implements View.OnClickListener{
         currentquestionindex=0;
         score=0;
         loadNewQuestion();
+    }
+
+    public void homepage(View view) {
+        Intent intent=new Intent(Quiz.this,MainActivity.class);
+        startActivity(intent);
     }
 }
