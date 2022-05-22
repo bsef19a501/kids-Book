@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KidsBook">
-        <activity android:name=".Rfor"></activity>
-        <activity android:name=".G" />
+        <activity android:name=".Quiz"></activity>
+        <activity android:name=".Gfor" />
+        <activity android:name=".Rfor" />
         <activity android:name=".Z" />
         <activity android:name=".Y" />
         <activity android:name=".X" />

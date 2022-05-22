@@ -28,7 +28,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void displayC(View view) {
-        Intent intent=new Intent(MainActivity2.this,A.class);
+        Intent intent=new Intent(MainActivity2.this,C.class);
         startActivity(intent);
 
     }
@@ -48,7 +48,10 @@ public class MainActivity2 extends AppCompatActivity {
         startActivity(intent);
     }
 
-
+    public void displayG(View view) {
+        Intent intent=new Intent(MainActivity2.this,Gfor.class);
+        startActivity(intent);
+    }
     public void displayH(View view) {
         Intent intent=new Intent(MainActivity2.this,H.class);
         startActivity(intent);
@@ -99,6 +102,10 @@ public class MainActivity2 extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void displayR(View view) {
+        Intent intent=new Intent(MainActivity2.this,Rfor.class);
+        startActivity(intent);
+    }
 
     public void displayS(View view) {
         Intent intent=new Intent(MainActivity2.this,S.class);
@@ -137,6 +144,11 @@ public class MainActivity2 extends AppCompatActivity {
 
     public void displayZ(View view) {
         Intent intent=new Intent(MainActivity2.this,Z.class);
+        startActivity(intent);
+    }
+
+    public void onHome(View view) {
+        Intent intent=new Intent(MainActivity2.this,MainActivity.class);
         startActivity(intent);
     }
 }

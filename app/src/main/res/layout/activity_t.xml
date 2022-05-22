@@ -44,4 +44,17 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView17"
         app:layout_constraintVertical_bias="0.751"
         android:onClick="onBack18"/>
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TREE"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toEndOf="@+id/textView18"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.697" />
 </androidx.constraintlayout.widget.ConstraintLayout>

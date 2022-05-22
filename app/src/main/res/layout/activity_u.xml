@@ -28,7 +28,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView25"
-        app:layout_constraintVertical_bias="0.23"
+        app:layout_constraintVertical_bias="0.42"
         app:srcCompat="@drawable/umbrella" />
 
     <Button
@@ -43,4 +43,17 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView25"
         app:layout_constraintVertical_bias="0.502"
         android:onClick="onBack19"/>
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UMBRELLA"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.277"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

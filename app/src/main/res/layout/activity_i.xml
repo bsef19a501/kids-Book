@@ -22,13 +22,13 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="354dp"
-        android:layout_height="402dp"
+        android:layout_width="347dp"
+        android:layout_height="269dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
-        app:layout_constraintVertical_bias="0.252"
+        app:layout_constraintVertical_bias="0.546"
         app:srcCompat="@drawable/icecream" />
 
     <Button
@@ -43,4 +43,18 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
         app:layout_constraintVertical_bias="0.582"
         android:onClick="onBack8"/>
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ICECREAM"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.252"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.539" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

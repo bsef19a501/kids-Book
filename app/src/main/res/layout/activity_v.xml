@@ -42,4 +42,15 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView18"
         app:layout_constraintVertical_bias="0.553"
         android:onClick="onBack20"/>
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VAN"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView19"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,6 +7,7 @@
     tools:context=".MainActivity2">
 
     <TableLayout
+        android:id="@+id/tableLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,16 +24,16 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="A"
-                android:onClick="displayA"/>
+                android:onClick="displayA"
+                android:text="A" />
 
             <Button
                 android:id="@+id/button32"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="B"
-                android:onClick="displayB"/>
+                android:onClick="displayB"
+                android:text="B" />
             />
 
             <Button
@@ -40,8 +41,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="C"
-                android:onClick="displayC"/>
+                android:onClick="displayC"
+                android:text="C" />
             />
 
             <Button
@@ -49,8 +50,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="D"
-                android:onClick="displayD"/>
+                android:onClick="displayD"
+                android:text="D" />
             />
         </TableRow>
 
@@ -63,8 +64,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="E"
-                android:onClick="displayE"/>
+                android:onClick="displayE"
+                android:text="E" />
             />
 
             <Button
@@ -72,8 +73,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="F"
-                android:onClick="displayF"/>
+                android:onClick="displayF"
+                android:text="F" />
             />
 
             <Button
@@ -81,8 +82,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="G"
-                android:onClick="displayG"/>
+                android:onClick="displayG"
+                android:text="G" />
             />
 
             <Button
@@ -90,8 +91,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="H"
-                android:onClick="displayH"/>
+                android:onClick="displayH"
+                android:text="H" />
             />
         </TableRow>
 
@@ -104,8 +105,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="I"
-                android:onClick="displayI"/>
+                android:onClick="displayI"
+                android:text="I" />
             />
 
             <Button
@@ -113,8 +114,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="J"
-                android:onClick="displayJ"/>
+                android:onClick="displayJ"
+                android:text="J" />
             />
 
             <Button
@@ -122,8 +123,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="K"
-                android:onClick="displayK"/>
+                android:onClick="displayK"
+                android:text="K" />
             />
 
             <Button
@@ -131,8 +132,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="L"
-                android:onClick="displayL"/>
+                android:onClick="displayL"
+                android:text="L" />
             />
         </TableRow>
 
@@ -145,8 +146,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="M"
-                android:onClick="displayM"/>
+                android:onClick="displayM"
+                android:text="M" />
             />
 
             <Button
@@ -154,8 +155,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="N"
-                android:onClick="displayN"/>
+                android:onClick="displayN"
+                android:text="N" />
             />
 
             <Button
@@ -163,8 +164,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="O"
-                android:onClick="displayO"/>
+                android:onClick="displayO"
+                android:text="O" />
             />
 
             <Button
@@ -172,8 +173,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="P"
-                android:onClick="displayP"/>
+                android:onClick="displayP"
+                android:text="P" />
             />
         </TableRow>
 
@@ -186,8 +187,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Q"
-                android:onClick="displayQ"/>
+                android:onClick="displayQ"
+                android:text="Q" />
             />
 
             <Button
@@ -195,8 +196,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="R"
-                android:onClick="displayR"/>
+                android:onClick="displayR"
+                android:text="R" />
             />
 
             <Button
@@ -204,8 +205,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="S"
-                android:onClick="displayS"/>
+                android:onClick="displayS"
+                android:text="S" />
             />
 
             <Button
@@ -213,8 +214,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="T"
-                android:onClick="displayT"/>
+                android:onClick="displayT"
+                android:text="T" />
             />
         </TableRow>
 
@@ -227,8 +228,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="U"
-                android:onClick="displayU"/>
+                android:onClick="displayU"
+                android:text="U" />
             />
 
             <Button
@@ -236,8 +237,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="V"
-                android:onClick="displayV"/>
+                android:onClick="displayV"
+                android:text="V" />
             />
 
             <Button
@@ -245,8 +246,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="W"
-                android:onClick="displayW"/>
+                android:onClick="displayW"
+                android:text="W" />
             />
 
             <Button
@@ -254,8 +255,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="X"
-                android:onClick="displayX"/>
+                android:onClick="displayX"
+                android:text="X" />
             />
         </TableRow>
 
@@ -268,8 +269,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Y"
-                android:onClick="displayY"/>
+                android:onClick="displayY"
+                android:text="Y" />
             />
 
             <Button
@@ -277,21 +278,33 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Z"
-                android:onClick="displayZ"/>
+                android:onClick="displayZ"
+                android:text="Z" />
             />
         </TableRow>
     </TableLayout>
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="serif"
-        android:text="Select any Alphabet"
+        android:layout_width="295dp"
+        android:layout_height="102dp"
+        android:fontFamily="sans-serif"
+        android:text="Select an Alphabet"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.122"
-        tools:layout_editor_absoluteX="81dp" />
+        app:layout_constraintVertical_bias="0.122" />
+
+    <Button
+        android:id="@+id/button37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        android:onClick="onHome"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
